@@ -1,4 +1,4 @@
-import { EventEmitter } from 'stream';
+
 import { Component } from '@angular/core';
 import { FavoriteChangedEventsArgs } from './star/star.component';
 
