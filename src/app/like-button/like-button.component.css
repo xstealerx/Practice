@@ -1,0 +1,16 @@
+ /* color: #ccc für grau
+ color: deeppink für pink 
+ cursor: pointer */
+
+ @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.bi-heart-fill {
+    color: #ccc;
+    font-size: 200px;
+    cursor: pointer
+}
+.highlighted {
+    color: deeppink;
+    font-size: 200px;
+    cursor: pointer
+}

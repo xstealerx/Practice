@@ -1,0 +1,20 @@
+
+<div class="zippy">
+    <div class="zippy-heading"
+    [class.expanded]="isExpanded"
+    (click)="onClick()">
+        {{title}}
+       <span class="dropdown"
+       [ngClass]="{
+        'btn btn-secondary dropdown-toggle ': isExpanded,
+        'btn-group dropup ': !isExpanded
+
+        } ">
+
+       </span>
+
+    </div>
+    <div *ngIf="isExpanded"iclass="zippy-body">
+        <ng-content></ng-content>
+    </div>
+</div>
